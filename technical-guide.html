@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Technical Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<style>
+  header{
+    font-size:25px;
+    text-decoration:underline;
+    }  
+  #window-open{
+    border-style:solid;
+    border-color:black;
+    width:400px;
+    border-radius:20px;
+   }
+  #opening-mac{
+    border-style:solid;
+    border-color:black;
+    border-radius:20px;
+    width:400px;
+  }
+  #navbar{
+    position:fixed;
+    width:300px;  
+     display:block;
+    height:100%;
+    border-style:solid;
+    border-color:black;
+    
+ 
+  }
+  .nav-link{
+    text-decoration:none;
+    margin:0;
+    color:black;
+    list-style:none;
+    font-size:20px;
+    border-style:solid;
+    width:300px;
+    height:100%;
+  }
+  body{
+    background-color:white;
+    font-style:Sans-Serif;
+  }
+  .main-section{
+    margin-left:310px;
+  }
+  
+  @media only screen and(max-width:800px;){
+    body{
+      background-color: green;
+    }
+  }
+  #target_blank{
+    color:red;
+  }
+  #links{
+    text-decoration:none;
+  }
+</style>
+
+<main id="main-doc">
+  <nav id="navbar">
+    <header>HTML Guide to Success</header>
+    <a class="nav-link"  href="#Introduction_to_HTML">Introduction</a><br><br>
+    <a class="nav-link"  href="#What_you_need_to_know">What you need to know </a><br><br>
+   <a class="nav-link"  href="#Saving_and_opening_projects">Saving and opening projects </a><br><br>
+    <a class="nav-link"  href="#Hello_World-_Your_first_project">Hello World- Your first Project </a><br><br>
+    <a class="nav-link"  href="#Header_elements">Header Elements </a><br><br>
+    <a class="nav-link"  href="#The_paragraph_element">Paragraph Elements </a><br><br>
+    <a class="nav-link"  href="#Inserting_images">Inserting Images</a><br><br>
+     <a class="nav-link"  href="#Inserting_Comments">Inserting Comments </a><br><br>
+    <a class="nav-link"  href="#Anchoring_links">Anchoring Links</a><br>
+    
+  </nav>
+    
+  <section class="main-section" id="Introduction_to_HTML">
+    <header>Introduction to HTML</header>
+    <p>HTML is a web designing language which stands for <i>Hyper Text Markup Language</i>. The latest version of HTML as of March 2019 is HTML 5. HTML includes a language called CSS. HTML is a very fun language. C'mon I'll show you.</p>
+  </section>
+
+  <section class="main-section" id="What_you_need_to_know">
+    <header>What you need to know</header> 
+    This guide assumes that you have the following:
+    <ul>
+      <li>Some knowledge in programming </li>
+      <li>Able to recognize English words and knowledge of grammar</li>
+      <li>Able to have fun!!</li>
+    </ul>
+    <p>Let's get started</p>
+  </section> 
+
+<section id="Savingandopening">      
+  <section class="main-section" id="Saving_and_opening_projects">
+    <header>Saving and opening projects</header>
+    <section id="window-open">
+    <h3><u>Windows</u></h3>
+    <ol>
+    <li>Open Notepad or any HTML editor</li>
+    <li>Go to File </li>
+    <li>Click the Save Button</li>
+    <li>Windows will ask you to put in a name.</li>
+    <li>Put in a a name- For this we will use "project.html"</li>
+      <b>**Note: The .html part is neccesary in order for your file to run as a website</b>
+    <li>Click the save button</li>
+    </ol>
+    </section>
+    <section id="opening-mac">
+    <h3><u>Mac </u></h3>
+  <ol>
+    <li>Open Text-Edit or any html editor</li>
+    <li>Click Format</li>
+    <li>Click Make Plain text</li>
+    <li>Click File</li>
+    <li>Click Save As</li>
+    <li>Enter a name - For this we will use "project.html" <br>
+      <b>**Note: The .html part is neccesary in order for your file to run as a website</b></li>
+    <li>Click save</li>
+    <li> An error box will ask you if you want to keep it as a html file- Click"Use .html"</li>
+    </section>
+  </section>
+      </section>
+
+  <section class="main-section" id="Hello_World-_Your_first_project">
+    <header>Hello World- Your first project</header>
+    <p>In your HTML editor or notepad write:<br></p>
+    <code>  <b>&ltp&gtHello World&lt/p&gt </b></code>
+  <p>Open your file in your browser and watch your website come to life!</p></section>
+
+  <section class="main-section" id="The_paragraph_element">
+    <header>The paragraph element</header>
+    <p> The most general writing tag in HTML would be the paragraph tag. This is what the paragraph tag looks like:<code><b>&ltp&gt(opening tag)</b> </code>and <code><b>&lt/p&gt(closing tag)</b></code></p>
+  </section>
+  
+  <section class="main-section" id="Header_elements">
+    <header>   Header elements</header>
+    <p>In HTML there are many different ways to write a header. The larger the Header, the more important it is.</p><h1>Header 1 or h1 looks like this.</h1>
+    <h2>Header 2 or h2 looks like this.</h2> <h3>Header 3 or h3 looks like this</h3><h4> Header 4 or h4 looks like this.</h4><h5>Header 5 or h5 looks like this</h5><h6>Header 6 or h6 looks like this.</h6><p>Usually headers 4-6 are only used for purposes when there are sections upon sections upon sections</p>
+    <p>In your project go ahead and above the  first line of code write:
+      <b>&lth1&gtMy first webpage&lt/h1&gt</b>
+  </section>
+  
+  
+    <section class="main-section" id="Inserting_images">
+      <header>Inserting images</header>
+      <p>Inserting images is really easy. The image tag is used when inserting images into your webpage. They have a specific opening and closing tag. Here is the code:<br><b> <code>&ltimg src="Your source to the image" alt="Alternate text"&gt</code></b> The alternate text is regquired  incase your image doesn't load properly. It is also used for screen readers can't see the images but will still see the content of it.   In you project go ahead and add an image. Remember how? No? That's ok. Just look up. You can add whatever image you want. Just make sure you have an alt text and a valid source</p>
+  </section>
+  
+  <section class="main-section" id="Inserting_Comments">
+    <header>Inserting comments</header>
+    <p>Inserting comments is really easy to. Comments are just used to simplify your code for anybody else who looks at your code. Adding a comment is done like this:<br>
+      <b><code> &lt!-----Comment about the code----&gt</code></b><br>
+      Some comment titles could be Introduction section, Nav-bar. Comments are not seen by the auience of your wbsite. In your website go ahead and add a comment to your code. Make one for your header and your paragraph tag. </p>
+  </section>
+  
+  <section class="main-section" id="Anchoring_links">
+    <header>Anchoring links</header>
+    <> Links are easy to insert. They help you link to another page within or outside your webpage on a new tab. Here is the code:<br>
+      <b><p>&lta href="The webpage"> Link name&lt/a&gt</b>or <b>&lta href="The webpage" <em>target="_blank"></em>  Link name &lt/a&gt</p></b>
+      As you can see there are two versions of inserting links. The first is a internal link meaning it opens the link in the same tab. The other is a external link meaning it opens in another link. To achieve the external links you must put <em><b>target="_blank"</b></em> Here is a link to my profile with external and an internal:<br>
+ <section id="links"> 
+  <a href="https://www.freecodecamp.org/aayushbro12">In tab link</a><br>
+  <a href="https://www.freecodecamp.org/aayushbro12" target="_blank">Out tab link</a><p>In your website add a link to whatever website you want. You can make it internal or external
+  </section>
+  </p>
+    </p>
+<p>That's just a sneak peak of HTML. To explore more of HTML visit Free code camp by clicking <a href="https://www.freecodecamp.org/">here</a>.</p>
+  </section>
+
+
+    </main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
