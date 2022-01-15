@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+ <style>
+   body{
+     background-color:rgb(100,210,255);
+     font-family: comfortaa;
+   }
+   
+   .textbox{
+    border-color:black;
+     border-radius:10px;
+     padding:5px;
+     align-justify:     
+   }
+   .buttons{
+     border-radius:10px;
+     padding:5px;
+     background-color: rgb(255,255,0);
+   }
+   #reqfields{
+     color:red;
+     
+   }
+   #format{
+     color: red;
+   }
+  
+</style>
+<title> Survey Fom</title> 
+<h1 id="title"> Survey form</h1> 
+<h2>Let me know how I  can improve my <a href="https://aayushtrips.wordpress.com/"> website</a></h2>
+<p id="description"> Fill out this survey to give your feedback on my website. </a></p>
+<p id="reqfields"> <b>Please fill out all of the required fields!!</b></p> 
+  <form id="survey-form"> 
+    <!---Contact information--->
+    Name: <input class="textbox"  id="name" required id="name-label"type="text" name=fullname placeholder=" Enter your name"> <br> <br>
+    Email: <input class="textbox" id="email" required id="email-label" type="email"  name:="email"placeholder="  Enter your email"> <br><br>
+    Phone: <input class="textbox"id="number"  id="number-label"type=" number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder=" Enter your phone number"> <p id=format> Format: 123-456-7890</p>
+    
+    <!--- Extra contact info---->
+    <!---Radio button set 1---->
+    <p> What choice best describes your role?</p>
+   <radio buttons required>
+    <input type="radio" name="role" value="Student">Student<br>
+      <input type="radio" name="role" value="Parent">Parent<br>
+      <input type="radio" name="role" value="Teacher">Teacher<br>
+      <input type="radio" name="role" value="Employer">Employer<br>    
+        <input  type="radio" name="role" value="Other">Other
+                  <input class="textbox" type="text" name="role" placeholder="Other"> 
+ 
+      <!---Dropdown---->
+    <p>How likely are you to recommend my website to a friend?</p>
+    <select class="buttons" id="dropdown" required>
+      <option value="" disabled selected hidden > Please choose an option</option>
+      <option value="Definitely"> Definitely</option>
+      <option value="Maybe"> Maybe</option>
+      <option value="Maybe Not" > Maybe not</option>
+      <option value="Never"> Never</option>
+     </select><br>
+   <!---Radio Buttons set 2--->
+    <p> Did you face any technical issues today or in the past?</p>
+    <radio buttons required>
+     <input type="radio" name="techissues" value="Yes">Yes<br>
+     <input type="radio" name="techissues"value="No">No<br>
+    <br>
+     <!---Checkboxes---->
+    <p>What was your favorite part?</p>
+    <checkboxes required>
+      <input type="checkbox" name="likemost" value="home">Home<br>
+    <input type="checkbox"name="likemost" value="blog">Blog<br>
+    <input type="checkbox"name="likemost" value="Presentations">Presentations<br>
+    <input type="checkbox"name="likemost" value=" Projects">Projects<br>  <br>  
+    
+    <p> What do you think I should add?</p>
+   <checkboxes required>
+    <input type="checkbox"name="addstuff" value="more blog posts">More blog posts<br>
+    <input type="checkbox"name="addstuff"  value="more presentations">More presentations<br>
+    <input type="checkbox"name="addstuff" value="more projects">More projects<br>
+    <input type="checkbox"name="addstuff" value="different style">Different Style<br>
+    <input type="checkbox"name="addstuff" value="other">Other
+    <input class="textbox"type="text"name="addstuff" placeholder="Other"><br>
+   
+    <p>Any additional comments?</p>
+   <textarea class="textbox">
+     </textarea><br>
+     <input class="buttons" id="submit" type="submit">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
