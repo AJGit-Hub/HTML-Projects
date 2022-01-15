@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Fork Me! FCC: Test Suite Template</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<style>
+  .pricing{
+    border:solid;
+    border-color:black;
+    border-width:2px;
+    width:250px;
+    padding:7px;
+    height:350px;
+    display:flex;
+    flex-direction:column;
+  }
+  .button{
+    width: 140px;
+    display:flex;
+    height:30px;
+    padding:5px;
+    font-size : 20px;
+    background-color:lightblue;
+    border-color:blue;
+    justify-content: center;
+  }
+  
+  .pricecontrol{
+    display:flex;
+    flex-wrap:wrap;
+   justify-content:space-between;
+  }
+
+  #submit{
+    background-color:rgb(4,150,255);
+    color:black;
+    width:190px;
+    height:40px;
+    border-radius: 0px;
+    font-size:17px;
+    border-color: rgb(4,150,255);
+    @media(max-width: 600px){
+      border-radius:20px; 
+    }
+  }
+  .emailarea{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+  #nav-bar{
+    display:flex;
+    flex-direction:row;
+    color:black;
+    padding: 0 50px;
+    position: fixed;
+    
+  }
+  #comment1{
+    line-height:1.6;
+    display:flex;
+    flex-direction:row;
+  }
+  #email{
+    border-radius: 0px;
+    width:250px;
+    height: 30px;   
+  ]
+    #footer{
+      display:flex;
+      align-content:right;
+      background-color:red;
+    }
+   
+</style>
+<html>
+<!----header--->
+<header id="header">
+  <img id="header-img" src="logo.jpg" alt="Our logo">
+  
+  <nav id="nav-bar">
+     <a class="nav-link"  href="#features">How it works</a><br>
+     <a class="nav-link" href="#pricing">Pricing</a>
+     <a class="nav-link" href="#Contact us">Contact Us</a>
+   </nav>
+    
+  <!----email form---->
+  <div class="emailarea">
+  <form action="https://www.freecodecamp.com/email-submit" id="form">
+  <h2 id="Contact us">Handcrafted masterpieces custom to you</h2>
+   <input id="email"required id="email"type="email" name="email"placeholder="Enter your email address"><br>
+    <input id="submit"type="submit" value="Let's start"></input>
+  </form>
+  </div>
+  </header>
+  <!----how it works---->
+  <h2 id="features"> How it works</h2>
+<p> Each AJ certified candy machine is made with presicion and care to get you the best. Our deluxe 24 set chocolate series candy machines are all made to get the smoothest and richest candy to you.<br><strong> <u>NEW!! With ultra self sanitation technology</u><sup>TM</sup> </strong>to keep your machine safe and clean.  Order yours today by clicking <a href="#pricing">here</a> or watch this video: <br></p>
+
+<iframe id="video"src="https://www.youtube.com/watch?v=tnr_yY__nMU"></iframe>
+<!---Pricing--->
+  <h2 id="pricing">Pricing</h2> 
+
+  <div class="pricecontrol">
+ <!-----Original Edition---->
+    <div class="pricing">
+      <h3 align="center"> <u>ORIGINAL EDITION</u> <br>
+    $100</h3>
+  <p>This original edition is great for residential or personal office use. A small dispenser for just the right amount. Order yours today by clicking below.</p><br>
+    <button class="button" type="select">select</button>
+  </div>
+ <!-----Large Edition----->
+    <div class="pricing">
+    <h3 align="center"><u>LARGE EDITION</u><br>
+      $170</h3>
+    <p>This large edition simulates a fusball experience-play to get your candy. Great with family, friends, and colleages. Order yours today by clicking below.</p><br>
+       <button class="button" type="select">select</button>
+ </div>
+    <!----Ultimate Edition--->
+    <div class="pricing">
+      <h3 align="center"><u>ULTIMATE EDITION</u><br>
+        $220</h3>
+        <p> The ultimate edition is really the ultimate candy editon. Dispenses the largest amounts of candy along with special music to play along.  Order yours today by clicking below. </p><br>
+    <button class="button" type="select">select</button>
+       </div>
+  </div>
+<footer id="footer">
+  &copy2019<p><i>Anything associated with Aayush Jain corporations is a registered trademark of AJ corporations. Candy machines not available in all states and territories. Some restrictions apply. See your local candy machine dealer or government office for details. Must be 18 or older to purchase. Use responsibly. Keep out of reach of children and pets. Penalties may occur for irresponible use. This is a patented product. All rights reserved. Ultra self sanitation technology is a trademark of Aayush Jain corporations. Liscence not for sale.</i></p> 
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
